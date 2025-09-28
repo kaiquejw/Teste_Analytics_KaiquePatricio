@@ -1,14 +1,18 @@
-Como executar
+# Teste_Analytics_KaiquePatricio
 
-1: Certifique-se de ter o Python 3.x instalado.
+Resolução do Teste de Estagiário de Analytics – Quod.
 
-Dependências: nenhuma obrigatória. (O script usa apenas bibliotecas padrão; pandas pode ser utilizado para conferência).
+## Como executar
 
-2: Execute o script no terminal:,
+1. Certifique-se de ter o Python 3.x instalado.  
+   Dependências: nenhuma obrigatória. (O script usa apenas bibliotecas padrão; `pandas` pode ser utilizado para conferência).  
 
-python teste.py
+2. Execute o script no terminal:
+   ```bash
+   python teste.py
 
-O script irá:
+3. O script irá:
+
 
 Simular um dataset de produtos e vendas.
 
