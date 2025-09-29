@@ -29,10 +29,10 @@
 
 Python 3.8+
 Pacotes necessários:
-  ```bash
+```bash
  pip install pandas matplotlib
 
-
+```
 # Extensões
 
 - **SQLTools (VS Code)**: útil para rodar consultas `.sql` diretamente no editor.
@@ -45,9 +45,9 @@ Pacotes necessários:
 
 Cria 50 vendas aleatórias no período 01/01/2023–31/12/2023, trata faltantes, remove duplicatas, converte tipos e salva em data/data_clean.csv.  
 
-   ```bash
+```bash
    python src/main.py
-
+```
 Saídas no terminal:
 Total de vendas (R$) por produto
 Total de unidades por produto
@@ -58,17 +58,17 @@ Produto campeão em valor e em quantidade
 
 Lê data/data_clean.csv, agrega por mês e plota a tendência de vendas mensais.
 
-   ```bash
+```bash
    python src/analise.py
-
+```
 
 3. Consultas SQL:
 
 Carrega data/data_clean.csv em uma tabela vendas (SQLite em memória) e executa as queries pedidas.
 
-   ```bash
+```bash
    python sql/consulta_sql.py
-
+```
 Consultas implementadas:
 
 Total de vendas por produto (R$), ordenado do maior para o menor
