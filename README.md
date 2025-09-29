@@ -1,4 +1,4 @@
-# Este repositório contém a resolução do Teste de Estagiário de Analytics_KaiquePatricio
+# Este repositório contém a resolução do Teste de Estagiário de Analytics - Quod
 
 1. Geração e limpeza de um dataset simulado de vendas (2023)
 2. Análise exploratória com gráfico de linha mensal
