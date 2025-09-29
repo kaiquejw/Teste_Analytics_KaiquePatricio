@@ -1,6 +1,4 @@
-# Teste_Analytics_KaiquePatricio
-
-# Este repositório contém a resolução do Teste de Estagiário de Analytics – Quod.
+# Este repositório contém a resolução do Teste de Estagiário de Analytics_KaiquePatricio
 
 1. Geração e limpeza de um dataset simulado de vendas (2023)
 2. Análise exploratória com gráfico de linha mensal
@@ -11,12 +9,19 @@
 
 
 ├── README.md
+├
 ├── data/
+├
 │   └── data_clean.csv          # dataset limpo gerado por main.py
+├
 ├── src/
-│   ├── main.py                 # simula dados, limpa, exporta CSV (Parte 1)
+├   │
+│   ├── main.py   # simula dados, limpa, exporta CSV (Parte 1)
+│   │              
 │   └── analise.py              # gráfico de linha por mês (Parte 2)
+│
 └── sql/
+    │
     └── consulta_sql.py         # executa consultas SQL no CSV (SQLite em memória)
 
 
@@ -69,8 +74,9 @@ Consultas implementadas:
 Total de vendas por produto (R$), ordenado do maior para o menor
 Produtos que venderam menos em junho de 2023
 
+# Mais informações
 
-4. Limpeza aplicada:
+1. Limpeza aplicada:
 
 Duplicatas: removidas por id
 Faltantes:
@@ -80,7 +86,7 @@ Tipos: id (int), quantidade (int), preco (float)
 Exportação: data/data_clean.csv
 
 
-5. Observações finais:
+2. Observações finais:
 
 O projeto foi organizado para facilitar a avaliação: src (código), data (dados), sql (consultas).
 
