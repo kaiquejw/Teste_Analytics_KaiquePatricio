@@ -74,6 +74,15 @@ Consultas implementadas:
 Total de vendas por produto (R$), ordenado do maior para o menor
 Produtos que venderam menos em junho de 2023
 
+⚠️ **Atenção**  
+O arquivo `data/data_clean.csv` já está populado com os dados usados nas análises e no relatório de insights.  
+
+- Se você deseja apenas **reproduzir os resultados apresentados**, utilize diretamente o dataset já salvo em `data/data_clean.csv` e rode apenas:
+  ```bash
+  python src/analise.py
+  python sql/consulta_sql.py
+
+
 # Mais informações
 
 1. Limpeza aplicada:
