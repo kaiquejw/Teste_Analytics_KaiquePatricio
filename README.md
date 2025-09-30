@@ -19,7 +19,7 @@ QUOD
 │       ├── queries.sql       # consultas SQL
 │       └── query_runner.py   # executa consultas SQL no CSV (SQLite em memória)
 ├── docs/
-│   └── relatorio_insights.md # relatórios e documentação extra
+│   └── relatorio_insights.md # relatório e insights
 └── README.md
 ```
 

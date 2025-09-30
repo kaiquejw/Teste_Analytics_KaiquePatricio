@@ -33,3 +33,12 @@ plt.ylabel("Total de Vendas (R$)")
 plt.grid(True)
 
 plt.show()
+
+""" insights a destacar:
+1. Sazonalidade clara:
+O gráfico mostra picos de vendas em agosto e novembro/dezembro, indicando forte relação com sazonalidade (ex.: volta às aulas, Black Friday e festas de fim de ano).
+
+2. Meses de baixa concentração: 
+Abril e junho apresentam quedas significativas, mostrando a necessidade de promoções ou campanhas específicas nesses períodos para estimular vendas.
+ """
+
