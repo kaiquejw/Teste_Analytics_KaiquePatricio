@@ -117,11 +117,16 @@ Isso sobrescreverá o arquivo data/data_clean.csv com um novo conjunto de vendas
 **Exportação:** `data/data_clean.csv`
 
 
-2. Observações finais:
+2. **Observações finais:**
 
-O projeto foi organizado para facilitar a avaliação: src (código), data (dados), sql (consultas).
+**Projeto foi estruturado para facilitar a avaliação:**  
 
-Caso prefira rodar tudo de uma vez, execute:
+- `src/` → código-fonte  
+- `data/` → datasets  
+- `sql/` → consultas SQL 
 
+**Para rodar tudo de uma vez, execute o comando abaixo no terminal:**
+
+```bash
 python src/main.py && python src/analise.py && python sql/consulta_sql.py
 
