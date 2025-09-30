@@ -1,12 +1,12 @@
-Relatório de insights e recomendações
+# Relatório de insights e recomendações
 
-Visão geral
+# Visão geral
     Após a simulação, limpeza e consolidação do dataset de 2023, observamos dois padrões centrais:
 Produtos de alto tíquete (Notebook e Geladeira) concentram a maior parte da receita, enquanto vestuário (Camisa e Calça) contribui em volume, mas com impacto limitado no faturamento.
 O gráfico mensal mostra forte sazonalidade, com picos em fevereiro, agosto, setembro e novembro, e quedas críticas em abril e junho.
 
 
-Resultados da análise:
+# Resultados da análise:
 
 • Notebook é dominante: lidera tanto em faturamento (R$ 782,8k) quanto em unidades (412), combinando valor e volume.
 
@@ -16,28 +16,29 @@ Resultados da análise:
 
 • Sazonalidade marcante: vendas muito fortes em agosto e novembro; retrações expressivas em abril e junho.
 
-Recomendações:
+# Recomendações:
 
-Gestão de mix e precificação:
+# Gestão de mix e precificação:
+
 • Explorar o Notebook em campanhas de valor, oferecendo acessórios e garantia estendida.
 
 • Reforçar Geladeira com foco em parcelamento e cross-sell de itens de cozinha.
 
 • Aumentar tíquete do vestuário via combos (ex.: 2 Camisas + 1 Calça) e descontos progressivos.
 
-Planejamento sazonal:
+# Planejamento sazonal:
 
 • Alinhar estoque e mídia para meses de pico (fev., ago., set., nov.).
 
 • Criar ação “Promoção do Meio do Ano” para abril/junho com cupons, frete grátis ou cashback.
 
-Cross-sell e recomendação:
+# Cross-sell e recomendação:
 
 • Oferecer mochilas, softwares e mouses junto ao Notebook.
 
 • Associar filtros e organizadores às Geladeiras.
 
-Medição contínua:
+# Medição contínua:
 
 • Monitorar margem por categoria e ROI por mês.
 
