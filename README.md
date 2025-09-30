@@ -90,8 +90,7 @@ Exportação: data/data_clean.csv
 
 O projeto foi organizado para facilitar a avaliação: src (código), data (dados), sql (consultas).
 
-Caso prefira rodar tudo de uma vez, execute na ordem:
+Caso prefira rodar tudo de uma vez, execute:
 
-python src/main.py
-python src/analise.py
-python sql/consulta_sql.py
+python src/main.py && python src/analise.py && python sql/consulta_sql.py
+

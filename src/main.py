@@ -55,7 +55,7 @@ for v in vendas_unicas:
 
 
 
-with open("../data/data_clean.csv", "w", newline="") as f:
+with open("data/data_clean.csv", "w", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=vendas_unicas[0].keys())
     writer.writeheader()
     writer.writerows(vendas_unicas)

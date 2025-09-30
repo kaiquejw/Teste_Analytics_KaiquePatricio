@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # 1. Ler o dataset limpo
 
-df = pd.read_csv("../data/data_clean.csv")
+df = pd.read_csv("data/data_clean.csv")
 
 
 # 2. Preparar dados

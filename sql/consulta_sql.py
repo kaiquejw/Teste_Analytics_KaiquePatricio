@@ -2,7 +2,7 @@ import sqlite3
 import pandas as pd
 
 
-df = pd.read_csv("../data/data_clean.csv")
+df = pd.read_csv("data/data_clean.csv")
 
 
 conn = sqlite3.connect(":memory:")
