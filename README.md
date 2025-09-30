@@ -8,16 +8,17 @@
 # Estrutura do repositório
 
 
+```
 .
 ├── README.md
 ├── data/
-│   └── data_clean.csv      # dataset limpo gerado por main.py
+│ └── data_clean.csv # dataset limpo gerado por main.py
 ├── src/
-│   ├── main.py             # simula dados, limpa, exporta CSV (Parte 1)
-│   ├── analise.py          # gráfico de linha por mês (Parte 2)
-│   └── sql/
-│       └── consulta_sql.py # executa consultas SQL no CSV (SQLite em memória)
-
+│ ├── main.py # simula dados, limpa, exporta CSV (Parte 1)
+│ ├── analise.py # gráfico de linha por mês (Parte 2)
+│ └── sql/
+│ └── consulta_sql.py # executa consultas SQL no CSV (SQLite em memória)
+```
 
 
 # Requisitos
