@@ -1,6 +1,7 @@
 # Relatório de insights e recomendações
 
 # Visão geral
+
     Após a simulação, limpeza e consolidação do dataset de 2023, observamos dois padrões centrais:
 Produtos de alto tíquete (Notebook e Geladeira) concentram a maior parte da receita, enquanto vestuário (Camisa e Calça) contribui em volume, mas com impacto limitado no faturamento.
 O gráfico mensal mostra forte sazonalidade, com picos em fevereiro, agosto, setembro e novembro, e quedas críticas em abril e junho.
