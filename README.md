@@ -86,7 +86,7 @@ O arquivo `data/data_clean.csv` já está populado com os dados usados nas anál
 
 2. As consultas SQL (consulta_sql.py).
 
-3. As análises complementares (analise.py).
+3. Gera o gráfico em linha  (analise.py).
 
 - Caso queira gerar novos dados aleatórios, altere a flag no arquivo main.py:
 
@@ -102,9 +102,13 @@ Isso sobrescreverá o arquivo data/data_clean.csv com um novo conjunto de vendas
 
 Duplicatas: removidas por id
 Faltantes:
+
    a) quantidade = None → substituída por 1
+
    b)preco = None → preenchido com o preço do catálogo do produto
+
 Tipos: id (int), quantidade (int), preco (float)
+
 Exportação: data/data_clean.csv
 
 
