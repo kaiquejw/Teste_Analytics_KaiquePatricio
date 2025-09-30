@@ -76,10 +76,24 @@ Produtos que venderam menos em junho de 2023
 ⚠️ **Atenção**  
 O arquivo `data/data_clean.csv` já está populado com os dados usados nas análises e no relatório de insights.  
 
-- Se você deseja apenas **reproduzir os resultados apresentados**, utilize diretamente o dataset já salvo em `data/data_clean.csv` e rode apenas:
+- Se você deseja apenas **executar todas as etapas**, utilizando o dataset já salvo, rode o seguinte comando:
   ```bash
-  python src/analise.py
-  python sql/consulta_sql.py
+  python src/main.py && python src/sql/consulta_sql.py && python src/analise.py
+
+**Esse comando executa em sequência:**
+
+1. O script principal (main.py), que realiza a análise inicial sobre o dataset já existente.
+
+2. As consultas SQL (consulta_sql.py).
+
+3. As análises complementares (analise.py).
+
+- Caso queira gerar novos dados aleatórios, altere a flag no arquivo main.py:
+
+```bash
+ GERAR_DADOS = True
+```
+Isso sobrescreverá o arquivo data/data_clean.csv com um novo conjunto de vendas simuladas.
 
 
 # Mais informações
