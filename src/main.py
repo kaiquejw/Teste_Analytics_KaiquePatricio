@@ -46,7 +46,8 @@ if GERAR_DADOS:
     # Tratamento de valores nulos
     for v in vendas_unicas:
         if v["quantidade"] is None:
-            v["quantidade"] = 1  
+            v["quantidade"] = medianas.get(v["produto"], 1) 
+        
 
     precos_catalogo = {p["nome"]: p["preco"] for p in produtos if p["preco"] is not None}
     for v in vendas_unicas:
