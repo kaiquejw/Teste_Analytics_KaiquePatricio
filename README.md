@@ -98,18 +98,23 @@ Isso sobrescreverá o arquivo data/data_clean.csv com um novo conjunto de vendas
 
 # Mais informações
 
-1. Limpeza aplicada:
+1. **Limpeza aplicada:**
 
-Duplicatas: removidas por id
-Faltantes:
+**Duplicatas:** removidas por `id` 
 
-   a) quantidade = None → substituída por 1
+**Valores faltantes:**
 
-   b)preco = None → preenchido com o preço do catálogo do produto
+- `quantidade = None` → substituída por `1`
+- `preco = None` → preenchido com o preço do catálogo do produto
+   
 
-Tipos: id (int), quantidade (int), preco (float)
+**Tipos de dados ajustados:**
 
-Exportação: data/data_clean.csv
+- `id` → `int`
+- `quantidade` → `int`
+- `preco` → `float`
+
+**Exportação:** `data/data_clean.csv`
 
 
 2. Observações finais:
