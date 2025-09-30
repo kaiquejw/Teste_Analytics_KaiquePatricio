@@ -9,9 +9,11 @@
 
 
 ├── README.md
+│
 ├
 ├── data/
-├
+│   │
+│   │
 │   └── data_clean.csv          # dataset limpo gerado por main.py
 ├
 ├── src/
